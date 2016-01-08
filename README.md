@@ -1,2 +1,1 @@
-# neovim
-Neovim 运行环境
+# Neovim 运行环境
