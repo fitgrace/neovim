@@ -1,9 +1,9 @@
 " ==================================================
+" 插件配置
 " Plugin Config
 " ==================================================
 
-
-" QuickTemplate {
+" QuickTemplate ( 通过模板新建文件 ) {
     let g:QuickTemplatePath = $HOME.'/.config/nvim/templates/'
 
     " 新建 XHTML 、PHP、Javascript 文件的快捷键
@@ -15,23 +15,23 @@
     nmap <Leader>blog :NewQuickTemplateTab blog<cr>
 " }
 
-" nerdtree {
-    map <Leader>nt :NERDTreeToggle<CR>
 
-    " 不显示帮助面板
-    " let NERDTreeMinimalUI=1
-    "let NERDTreeHighlightCursorline=1
-    "
-    " 设置需要忽略的文件
-    let NERDTreeIgnore = ['\.pyc$', '\.pyo$', '\.obj$', '\.o$', '\.so$', '\.egg$', '^\.git$', '^\.svn$', '^\.hg$']
-
-    "close vim if the only window left open is a NERDTree
-    autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | end
+" scrooloose/nerdtree {
+    if filereadable(expand("~/.config/nvim/config/nerdtree.config.vim"))
+        source ~/.config/nvim/config/nerdtree.config.vim
+    endif
 " }
 
 
 " scrooloose/syntastic {
     if filereadable(expand("~/.config/nvim/config/syntastic.config.vim"))
         source ~/.config/nvim/config/syntastic.config.vim
+    endif
+" }
+
+
+" scrooloose/nerdcommenter {
+    if filereadable(expand("~/.config/nvim/config/nerdcommenter.config.vim"))
+        source ~/.config/nvim/config/nerdcommenter.config.vim
     endif
 " }
