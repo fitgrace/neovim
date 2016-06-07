@@ -35,3 +35,9 @@
         source ~/.config/nvim/config/nerdcommenter.config.vim
     endif
 " }
+"
+" godlygeek/tabular {
+    if filereadable(expand("~/.config/nvim/config/tabular.config.vim"))
+        source ~/.config/nvim/config/tabular.config.vim
+    endif
+" }

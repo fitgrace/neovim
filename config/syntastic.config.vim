@@ -10,7 +10,7 @@ let g:syntastic_error_symbol = '>>'
 let g:syntastic_warning_symbol = '>'
 
 " 不建议首次打开文件时进行检查
-let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_open = 1
 
 " :wq 时不进行检查，注意这跟 :w 不一样
 " let g:syntastic_check_on_wq = 0

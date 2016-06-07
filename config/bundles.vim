@@ -19,6 +19,11 @@ Plug 'pangloss/vim-javascript'
 " 语法检查，支持多语言
 Plug 'scrooloose/syntastic'
 
+" 代码格式化
+" ,a=  按等号切分格式化
+" ,a:  按逗号切分格式化
+Plug 'godlygeek/tabular'
+
 " Color
 " http://slinky.imukuppi.org/zenburnpage/
 Plug 'jnurmine/Zenburn'
