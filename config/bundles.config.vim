@@ -12,7 +12,7 @@
     nmap <Leader>css  :NewQuickTemplateTab css<cr>
     nmap <Leader>js   :NewQuickTemplateTab javascript<cr>
     nmap <Leader>md   :NewQuickTemplateTab markdown<cr>
-    nmap <Leader>blog :NewQuickTemplateTab blog<cr>
+    nmap <Leader>rc :NewQuickTemplateTab reactComponent<cr>
 " }
 
 
