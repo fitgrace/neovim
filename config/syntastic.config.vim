@@ -37,12 +37,12 @@ let g:syntastic_loc_list_height = 5
 highlight SyntasticErrorSign guifg=white guibg=black
 
 function!  ToggleErrors()
-    let old_last_winnr = winnr('$')
-    lclose
-    if old_last_winnr == winnr('$')
-        " Nothing was closed, open syntastic_error location panel
-        Errors
-    endif
+  let old_last_winnr = winnr('$')
+  lclose
+  if old_last_winnr == winnr('$')
+    " Nothing was closed, open syntastic_error location panel
+    Errors
+  endif
 endfunction
 nnoremap <Leader>s :call ToggleErrors()<cr>
 " nnoremap <Leader>sn :lnext<cr>

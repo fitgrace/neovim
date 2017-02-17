@@ -19,6 +19,15 @@ module.exports = {
         'jQuery': true,
     },
 
+    // ESLint默认支持ECMAScript5的语法规则。也可通过参数覆盖到ECMAScript6，JSX同样。
+    "parserOptions":  {
+      "ecmaVersion": 6, // ECMAScript的版本，3、5(默认)、6
+      "sourceType": "module", // 指定来源的类型，有两种 script 或 module
+      "ecmaFeatures": { // 表示一些附加特性的对象，globalReturn - 在全局作用域允许return 语句，impliedStrict - strict模式（ecma版本大于等于5）, jsx - 支持jsx，experimentalObjectRestSpread 
+        "jsx": true // 启动JSX
+      },
+    }, 
+
     // 规则（rules）：设定的规则及该规则对应的报错level
     'rules': {
         /**

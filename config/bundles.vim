@@ -27,5 +27,7 @@ Plug 'godlygeek/tabular'
 " Color
 " http://slinky.imukuppi.org/zenburnpage/
 Plug 'jnurmine/Zenburn'
+Plug 'tomasr/molokai'
+Plug 'blueshirts/darcula'
 
 call plug#end()
