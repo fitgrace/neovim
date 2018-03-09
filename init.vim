@@ -97,7 +97,7 @@ filetype off
   " 行控制
   set linebreak     " 使英文单词在换行时不被截断
   set textwidth=500 " 每行的字符数，光标超过 500 列的时候折行
-  set linespace=8   " 行间距
+  set linespace=10   " 行间距
   set wrap          " 自动换行
 
   " 标签页
@@ -155,7 +155,8 @@ filetype off
   " 编辑器配色
   " colorscheme zenburn
   " colorscheme molokai
-  colorscheme darcula
+  " colorscheme darcula
+  colorscheme space-vim-dark
 
   set guifont=Monaco\ for\ Powerline:h14
   set guifontwide=Monaco\ for\ Powerline:h14

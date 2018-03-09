@@ -36,9 +36,17 @@
     source ~/.config/nvim/config/nerdcommenter.config.vim
   endif
 " }
-"
+
+
 " godlygeek/tabular {
   if filereadable(expand("~/.config/nvim/config/tabular.config.vim"))
     source ~/.config/nvim/config/tabular.config.vim
+  endif
+" }
+
+
+" kien/rainbow_parentheses.vim {
+  if filereadable(expand("~/.config/nvim/config/rainbow_parentheses.config.vim"))
+    source ~/.config/nvim/config/rainbow_parentheses.config.vim
   endif
 " }
