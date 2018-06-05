@@ -27,6 +27,8 @@ Plug 'tpope/vim-surround'
 " 快速插入自定义的代码片段
 " 解放生产力的神器，简单配置，就可以按照自己的风格快速输入大段代码
 " Plug 'SirVer/ultisnips'
+" Plug 'honza/vim-snippets'
+" Plug 'roxma/nvim-completion-manager'
 
 " 快速跳转到配对的符号或标签
 Plug 'matchit.zip'
@@ -39,6 +41,12 @@ Plug 'kien/rainbow_parentheses.vim'
 
 " JavaScript 语法高亮
 Plug 'pangloss/vim-javascript'
+
+" Vue 语法高亮
+Plug 'posva/vim-vue'
+
+" Stylus 语法
+Plug 'iloginow/vim-stylus'
 
 " 语法检查，支持多语言
 Plug 'scrooloose/syntastic'

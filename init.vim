@@ -163,6 +163,9 @@ filetype off
 
   " 各不同类型的文件配色不同
   " au BufNewFile,BufRead,BufEnter,WinEnter *.js,*.php colo zenburn
+
+  " Vue 语法高亮
+  au BufNewFile,BufRead *.vue setlocal filetype=vue.html.javascript.css
 " }
 
 

@@ -14,6 +14,7 @@
   nmap <Leader>md   :NewQuickTemplateTab markdown<cr>
   nmap <Leader>rc   :NewQuickTemplateTab reactComponent<cr>
   nmap <Leader>rnc  :NewQuickTemplateTab reactNodeFactories<cr>
+  nmap <Leader>vue  :NewQuickTemplateTab vueComponent<cr>
 " }
 
 
@@ -49,4 +50,11 @@
   if filereadable(expand("~/.config/nvim/config/rainbow_parentheses.config.vim"))
     source ~/.config/nvim/config/rainbow_parentheses.config.vim
   endif
+" }
+
+
+" SirVer/ultisnips {
+" if filereadable(expand("~/.config/nvim/config/ultisnips.config.vim"))
+"   source ~/.config/nvim/config/ultisnips.config.vim
+" endif
 " }
