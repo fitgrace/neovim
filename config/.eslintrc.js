@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-    // 环境（env）：设置你的脚本的目标运行环境，如browser，amd，es6，commonjs等，每种环境有预设的全局变量
+    // 环境（env）：指定你想启用的环境，并设置它们为 true，如 browser，amd，es6，commonjs 等，每种环境有预设的全局变量
     'env': {
         'browser': true,
         'node': true,

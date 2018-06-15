@@ -13,6 +13,14 @@
   export default {
     name: 'CellName',
 
+    /**
+     * 使用组件 mixins 共享通用功能
+     * Mixins 封装可重用的代码，避免了重复。如果两个组件共享有相同的功能，则可以使用 mixin。
+     * 通过 mixin，你可以专注于单个组件的任务和抽象的通用代码
+     */
+    mixins: [],
+
+    // 继承
     extends: {},
 
     /**
@@ -69,21 +77,15 @@
     methods: {},
 
     // 生命周期钩子：实例初始化之后，数据观测(data observer) 和 event/watcher 事件配置之前被调用
-    beforeCreated () {
-      console.log('component before created')
-    },
+    beforeCreated () {},
     // 生命周期钩子：组件实例创建完成之后被调用，实例已经完成：数据观测，属性和方法的运算，watch/event 事件回调
-    created () {
-      console.log('component created')
-    },
+    created () {},
     // 生命周期钩子：组件实例渲染完成时调用
-    mounted () {
-      console.log('component mounted')
-    }
+    mounted () {}
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" rel="stylesheet/stylus">
   /**
    * scoped 省略后，该样式片段会应用到页面全局
    * 支持 import 语法引入css文件

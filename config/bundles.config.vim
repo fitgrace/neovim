@@ -53,8 +53,8 @@
 " }
 
 
-" SirVer/ultisnips {
-" if filereadable(expand("~/.config/nvim/config/ultisnips.config.vim"))
-"   source ~/.config/nvim/config/ultisnips.config.vim
-" endif
-" }
+" Shougo/neosnippet.vim {
+  if filereadable(expand("~/.config/nvim/config/neosnippet.config.vim"))
+    source ~/.config/nvim/config/neosnippet.config.vim
+  endif
+"}

@@ -29,9 +29,10 @@ Plug 'tpope/vim-surround'
 " Plug 'SirVer/ultisnips'
 " Plug 'honza/vim-snippets'
 " Plug 'roxma/nvim-completion-manager'
+Plug 'Shougo/neosnippet.vim'
 
 " 快速跳转到配对的符号或标签
-Plug 'matchit.zip'
+Plug 'vim-scripts/matchit.zip'
 
 " 跳转到光标后任意位置，高效的移动光标，革命性的突破
 Plug 'easymotion/vim-easymotion'
