@@ -17,4 +17,3 @@ if has('conceal')
   set conceallevel=2
   set concealcursor=niv
 endif
-
