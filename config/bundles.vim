@@ -52,6 +52,9 @@ Plug 'iloginow/vim-stylus'
 " 语法检查，支持多语言
 Plug 'scrooloose/syntastic'
 
+" EditorConfig
+Plug 'editorconfig/editorconfig-vim'
+
 " Color
 " http://slinky.imukuppi.org/zenburnpage/
 Plug 'jnurmine/Zenburn'
