@@ -58,3 +58,10 @@
     source ~/.config/nvim/config/neosnippet.config.vim
   endif
 "}
+
+
+" mileszs/ack.vim {
+  if filereadable(expand("~/.config/nvim/config/ack.config.vim"))
+    source ~/.config/nvim/config/ack.config.vim
+  endif
+"}

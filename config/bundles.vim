@@ -10,6 +10,9 @@ Plug 'scrooloose/nerdtree'
 " NERD出品的快速给代码加注释插件，选中 ctrl+h 即可注释多种语言代码
 Plug 'scrooloose/nerdcommenter'
 
+" 用来在项目里全局搜索某个单词
+Plug 'mileszs/ack.vim'
+
 " HTML、CSS 快速编码（原zencoding）
 Plug 'mattn/emmet-vim'
 

@@ -83,7 +83,8 @@ filetype off
   set noswapfile " 不生成swap文件，当buffer被丢弃的时候隐藏它
 
   " 当前正在缓冲区但文件内容变化，自动加载变化之后的内容
-  set autoread | au CursorHold,FocusGained,BufEnter * checktime | call feedkeys("lh")
+  " set autoread | au CursorHold,FocusGained,BufEnter * checktime | call feedkeys("lh")
+  set autoread | au CursorHold,FocusGained,BufEnter * checktime
 " }
 
 
