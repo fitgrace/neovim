@@ -25,13 +25,6 @@
 " }
 
 
-" scrooloose/syntastic {
-  if filereadable(expand("~/.config/nvim/config/syntastic.config.vim"))
-    source ~/.config/nvim/config/syntastic.config.vim
-  endif
-" }
-
-
 " scrooloose/nerdcommenter {
   if filereadable(expand("~/.config/nvim/config/nerdcommenter.config.vim"))
     source ~/.config/nvim/config/nerdcommenter.config.vim
@@ -51,13 +44,6 @@
     source ~/.config/nvim/config/rainbow_parentheses.config.vim
   endif
 " }
-
-
-" Shougo/neosnippet.vim {
-  if filereadable(expand("~/.config/nvim/config/neosnippet.config.vim"))
-    source ~/.config/nvim/config/neosnippet.config.vim
-  endif
-"}
 
 
 " mileszs/ack.vim {

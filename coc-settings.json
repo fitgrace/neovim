@@ -1,0 +1,36 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx",
+    "css",
+    "less",
+    "scss",
+    "html",
+    "vue",
+    "json"
+  ],
+  "eslint.filetypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "javascriptreact",
+    "typescript.tsx",
+    "scss",
+    "vue"
+  ],
+  "coc.preferences.diagnostic.virtualText": true,
+
+  "prettier.disableLanguages": [],
+  "eslint.autoFixOnSave": true,
+
+  "suggest.noselect": false,
+  "snippets.extends": {
+    "typescript": ["javascript"],
+    "javascriptreact": ["javascript"],
+    "typescriptreact": ["javascript"]
+  },
+  "snippets.ultisnips.directories": ["~/.config/nvim/ultisnips/"]
+}

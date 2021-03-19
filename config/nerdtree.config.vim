@@ -10,7 +10,7 @@ map <Leader>t :NERDTreeToggle<CR>
 "let NERDTreeHighlightCursorline=1
 
 " 打开vim时自动打开NERDTree
-" autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree
 
 " 显示行号
 let NERDTreeShowLineNumbers=1

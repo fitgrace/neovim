@@ -13,6 +13,9 @@ Plug 'scrooloose/nerdcommenter'
 " 用来在项目里全局搜索某个单词
 Plug 'mileszs/ack.vim'
 
+"  新一代全代码补全插件
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " HTML、CSS 快速编码（原zencoding）
 Plug 'mattn/emmet-vim'
 
@@ -27,13 +30,6 @@ Plug 'Raimondi/delimitMate'
 " 快速给词加环绕符号
 Plug 'tpope/vim-surround'
 
-" 快速插入自定义的代码片段
-" 解放生产力的神器，简单配置，就可以按照自己的风格快速输入大段代码
-" Plug 'SirVer/ultisnips'
-" Plug 'honza/vim-snippets'
-" Plug 'roxma/nvim-completion-manager'
-Plug 'Shougo/neosnippet.vim'
-
 " 快速跳转到配对的符号或标签
 Plug 'vim-scripts/matchit.zip'
 
@@ -46,14 +42,14 @@ Plug 'kien/rainbow_parentheses.vim'
 " JavaScript 语法高亮
 Plug 'pangloss/vim-javascript'
 
+" TypeScript 语法高亮
+Plug 'leafgarland/typescript-vim'
+
 " Vue 语法高亮
 Plug 'posva/vim-vue'
 
 " Stylus 语法
-Plug 'iloginow/vim-stylus'
-
-" 语法检查，支持多语言
-Plug 'scrooloose/syntastic'
+" Plug 'iloginow/vim-stylus'
 
 " EditorConfig
 Plug 'editorconfig/editorconfig-vim'

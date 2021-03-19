@@ -72,8 +72,8 @@ filetype off
   " 'a' 所有前面的模式  
   " 'r' hit-enter 和 more-prompt 提示时
   if has('mouse')
-   "set mouse-=a
-    set mouse=n
+   " set mouse=a
+   set mouse=n
   endif
 
   " 不备份文件（根据自己需要取舍）
@@ -124,11 +124,11 @@ filetype off
 
 " Formatting ( 格式化 ){
   " 制表符
-  set tabstop=2       " 设定 tab 长度为 4 空格
-  set expandtab       " 按tab键插入空格
+  set tabstop=2       " 设定 tab 长度为 2 空格
+  set expandtab       " 按 tab 键插入空格
   set smarttab        " 根据文件中其他地方的缩进空格个数来确定一个 tab 是多少个空格
-  set shiftwidth=2    " 设定 << 和 >> 命令移动时的宽度为 4
-  set softtabstop=2   " 按退格键一次删掉 4 个空格
+  set shiftwidth=2    " 设定 << 和 >> 命令移动时的宽度为 2
+  set softtabstop=2   " 按退格键一次删掉 2 个空格
 
   " 缩进
   set autoindent " 继承前一行的缩进方式，特别适用于多行注释
